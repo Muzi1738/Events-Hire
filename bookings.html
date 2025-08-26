@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Booking and Pricing</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Nav -->
+    <nav class="navbar">
+        <div class="nav-logo">
+            <a href="index.html">EVENTS</a><br><a href="#">HIRE</a>
+        </div>
+        <div class="nav-menu" id="navMenu">
+            <a href="index.html">Home</a>
+            <a href="catalogue.html">Catalogue</a>
+            <a href="bookings.html">Bookings</a>
+            <a href="events.html">Events</a>
+            <a href="about.html">About</a>
+        </div>
+        <div class="nav-toggle" id="navToggle">
+            &#9776;
+        </div>
+    </nav>
+
+  <!-- Header -->
+  <header class="booking__header">
+    <h1>Booking & Pricing</h1>
+    <p>Plan your perfect event with ease.</p>
+  </header>
+
+  <!-- Rental Process Section -->
+  <section class="rental-process">
+    <h2>How the Rental Process Works</h2>
+    <ol>
+      <li><strong>Choose Your Furniture:</strong> Browse our catalog and select items for your event.</li>
+      <li><strong>Check Availability:</strong> Use the availability checker below to see if items are available on your event date.</li>
+      <li><strong>Get a Quote:</strong> Use our price calculator for an estimate, or fill out the form to request a custom quote.</li>
+      <li><strong>Delivery & Setup:</strong> We handle the delivery, setup, and takedown, so you can focus on your event.</li>
+    </ol>
+  </section>
+
+  <!-- Request a Quote Section -->
+  <section class="request-quote">
+    <h2>Request a Quote</h2>
+    <form id="quoteForm" onsubmit="submit">
+      <label for="name">Name:</label>
+      <input type="text" id="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" required>
+
+      <label for="eventDetails">Event Details:</label>
+      <textarea id="eventDetails" rows="4" placeholder="Describe your event, location, required items."></textarea>
+
+      <button type="submit">Request a Quote</button>
+    </form>
+  </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+          <div class="footer-links">
+            <a href="about.html">About Us</a>
+            <a href="catalogue.html">Catalog</a>
+            <a href="events.html">Services</a>
+            <a href="bookings.html">Contact</a>
+          </div>
+          <div class="social-media">
+            <a href="https://facebook.com" target="_blank">Facebook</a>
+            <a href="https://instagram.com" target="_blank">Instagram</a>
+            <a href="https://pinterest.com" target="_blank">Pinterest</a>
+          </div>
+          <p>&copy; 2024 Events Furniture. All rights reserved.</p>
+        </div>
+    </footer>
+
+  <script src="assets/js/booking.js"></script>
+</body>
+</html>
